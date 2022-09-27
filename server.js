@@ -1,7 +1,8 @@
 require("dotenv").config()
 const multer = require("multer")
 const mongoose = require("mongoose")
-const crypt = require("bcrypt")
+const bcrypt = require("bcrypt")
+const File = require("./models/File")
 
 const express = require("express")
 const req = require("express/lib/request")
